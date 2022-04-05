@@ -26,7 +26,7 @@ function Addstudents() {
 
          const handleCreate = async () => {
             var response = await axios.post(
-              'https://6243e7eb39aae3e3b7485c23.mockapi.io/students',
+              'https://624bdd9044505084bc5633c0.mockapi.io/students/',
               {
                 firstname: rename.firstname,
                 lastname: rename.lastname,

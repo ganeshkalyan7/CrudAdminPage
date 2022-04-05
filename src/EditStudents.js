@@ -18,7 +18,7 @@ function EditStudents() {
 
   const handleUpdate = async (id) => {
     var response = await axios.put(
-      `https://6243e7eb39aae3e3b7485c23.mockapi.io/students/${id}`,
+      `https://624bdd9044505084bc5633c0.mockapi.io/students/${id}`,
       {
         firstname:rename.firstname,
         lastname: rename.lastname,

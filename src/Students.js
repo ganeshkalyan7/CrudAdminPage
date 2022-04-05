@@ -21,7 +21,7 @@ function Students() {
       //GET DATA //
     const getdata=async()=>{
     var response = await axios.get(
-      'https://6243e7eb39aae3e3b7485c23.mockapi.io/students'
+      'https://624bdd9044505084bc5633c0.mockapi.io/students'
     );
     setStudents(response.data);
    }
@@ -29,7 +29,7 @@ function Students() {
     //DELETE
   const handleDelete=async(id)=>{
     await axios.delete( 
-      `https://6243e7eb39aae3e3b7485c23.mockapi.io/students/${id}`
+      `https://624bdd9044505084bc5633c0.mockapi.io/students/${id}`
 
     )
     var user = students.filter((user) => user.id !== id);
